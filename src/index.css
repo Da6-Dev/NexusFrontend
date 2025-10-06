@@ -1,0 +1,14 @@
+/* src/index.css */
+
+/* Removemos a maioria das regras que o Chakra UI já controla. */
+/* Mantemos apenas o básico se necessário, mas para este projeto, */
+/* o Chakra UI já fornece um bom reset de CSS. */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
